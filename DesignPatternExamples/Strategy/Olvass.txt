@@ -1,0 +1,1 @@
+A DataProcessor kiindulási kódja a "StrategyAndTemplateMethod_Common\Initial_DataProcessor" mappában található.
