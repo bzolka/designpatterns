@@ -1,1 +1,1 @@
-# designpatterns
+# Tervezési minták témakörhöz kapcsolódó példakódok
