@@ -25,7 +25,7 @@ namespace DesPattCode.Intro
 
         CompressionAlg compressionAlg;
 
-        public DataProcessor(CompressionAlg compressionAlg)
+        public DataProcessor2(CompressionAlg compressionAlg)
         {
             this.compressionAlg = compressionAlg;
         }
@@ -54,6 +54,8 @@ namespace DesPattCode.Intro
                     return compressUsingZip7(data);
                 case CompressionAlg.Rar:
                     return compressUsingRar(data);
+                default:
+                    throw new NotSupportedException();
             }
         }
 

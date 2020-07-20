@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="DataProcessor1.cs" />
+    <Compile Remove="DataProcessor2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DataProcessor1.cs" />
+    <None Include="DataProcessor2.cs" />
+  </ItemGroup>
+
 </Project>
